@@ -4,7 +4,7 @@
 
 [Slides](dio-dotnet-poo-lab-2.pdf)
 
-## Contato
+## Contato do instrutor
 
 Eliézer Zarpelão
 
