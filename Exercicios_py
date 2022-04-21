@@ -1,0 +1,141 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Exercícios fixação Funções, loops, condições",
+      "provenance": [],
+      "collapsed_sections": [],
+      "authorship_tag": "ABX9TyOfbf3Z0ULUiCGksLds7VlQ",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/yanofb/projeto_dotnet_dio/blob/master/Exercicios_py\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "id": "UZ35q7Uq18QN"
+      },
+      "outputs": [],
+      "source": [
+        "import numpy as np\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "valor1 = 12156\n",
+        "valor2 = 132589\n",
+        "amplitude = (valor2 - valor1)\n",
+        "print (amplitude)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "02M_OARw2BCq",
+        "outputId": "39300a6b-56dd-4ace-f8ce-b75f4f05d2c9"
+      },
+      "execution_count": 12,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "120433\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "for c in (\" Aprendendo Python \"): print(c)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ThIX-Xp33UpB",
+        "outputId": "e263aa02-ca8e-4fac-c9f9-feae6280ef67"
+      },
+      "execution_count": 48,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            " \n",
+            "A\n",
+            "p\n",
+            "r\n",
+            "e\n",
+            "n\n",
+            "d\n",
+            "e\n",
+            "n\n",
+            "d\n",
+            "o\n",
+            " \n",
+            "P\n",
+            "y\n",
+            "t\n",
+            "h\n",
+            "o\n",
+            "n\n",
+            " \n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "peso = input (\"Qual o peso?\" +\" \")\n",
+        "\n",
+        "if peso <= \"10\":\n",
+        "\tprint(\"50 realess\")\n",
+        "elif peso > \"10\" and peso <=\"20\":\n",
+        "\tprint(\"80 realess\")\n",
+        "else:\n",
+        "\tprint(\"Não levo\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "PrdPtkgO5Nti",
+        "outputId": "1601af71-9b54-4036-bf9a-b5ae86742254"
+      },
+      "execution_count": 47,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Qual o peso? 32\n",
+            "Não levo\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
